@@ -30,4 +30,4 @@ git clone https://github.com/sbwml/openwrt_helloworld openwrt_helloworld
 cp -rv openwrt_helloworld/shadowsocks-rust feeds/packages/net/shadowsocks-rust
 rm -rf openwrt_helloworld
 
-sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.68.1/g' package/base-files/files/bin/config_generate
